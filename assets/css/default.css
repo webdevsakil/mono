@@ -1,0 +1,98 @@
+/* 
+1. Background Color
+2. Color
+3. Button
+*/
+/* Background Color */
+.theme-bg {
+    background: #505cfd;
+}
+.gray-bg {
+    background: #e7e8fe;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.black-bg {
+    background: #343434;
+}
+
+.primary-bg {
+    background: #222;
+}
+
+/* Color */
+.white-color {
+    color: #fff;
+}
+
+.black-color {
+    color: #222;
+}
+
+.theme-color {
+    color: #222;
+}
+
+.primary-color {
+    color: #222;
+}
+
+.dark-overlay {
+    position: relative;
+}
+
+.dark-overlay::before {
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #040415;
+    opacity: 0.6;
+}
+
+.gray-overlay {
+    position: relative;
+}
+
+.gray-overlay::before {
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #121121;
+    opacity: 0.9;
+}
+/* button */
+.mono-btn {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #343434;
+    text-transform: capitalize;
+    padding: 20px 50px;
+    line-height: 1;
+    display: block;
+    border: 2px solid #505cfd;
+    border-radius: 30px;
+    transition: all ease-in-out 0.3s;
+}
+.mono-btn:hover {
+    background-color: #505cfd;
+    color: #fff;
+}
+.mono-btn-fill {
+    background-color: #505cfd;
+    color: #fff;
+}
+.mono-btn-fill:hover {
+    background-color: #fff;
+    color: #505cfd;
+    border:2px solid #fff;
+}

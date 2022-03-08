@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Bootstrap & SCSS Starter Pack</title>
+    <!-- CSS -->
+    <!-- Font Poppins & Rubik-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/tinyslider/tinyslider.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="transparent-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
+                    <a href="index.html">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-xl-9 col-lg-9 col-md-7 col-sm-7  d-flex justify-content-sm-center align-items-center justify-content-lg-end justify-content-md-center ">
+                    <div class="mobile-menu">
+                        <button type="button"><i class="fa fa-bars"></i></button>
+                    </div>
+                    <div class="mobile-menu-close">
+                            <button type="button"><i class="fa fa-close"></i></button>
+                    </div>
+                    <div class="menu-area">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Home</a>
+                                    <ul class="submenu">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Portfolio</a></li>
+                                        <li><a href="#">Team</a></li>
+                                        <li><a href="#">Services</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Clients</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Clients</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="btn-area">
+                        <a href="#" class="mono-btn">hire us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Main -->
+    <main>
+        <!-- Hero Slider -->
+        <section id="slider">
+            <div class="hero-slider">
+                <div class="slide-wrapper">
+                    <div class="slider-item" style="background-image: url('./assets/img/slider.jpg');">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="slider-text-wrap">
+                                        <ul class="social-items">
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                        <h2>
+                                            We Are Monu<br>
+                                            Creative Agency
+                                        </h2>
+                                        <div class="slider-desc">
+                                            <p>We Create Awesome and Powerful Websites For Business!</p>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#" class="mono-btn d-inline-block">purchase now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-wrapper">
+                    <div class="slider-item" style="background-image: url('./assets/img/slider.jpg');">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="slider-text-wrap">
+                                        <ul class="social-items">
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                        <h2>
+                                            We Are Monu<br>
+                                            Creative Agency
+                                        </h2>
+                                        <div class="slider-desc">
+                                            <p>We Create Awesome and Powerful Websites For Business!</p>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#" class="mono-btn d-inline-block">purchase now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-wrapper">
+                    <div class="slider-item" style="background-image: url('./assets/img/slider.jpg');">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="slider-text-wrap">
+                                        <ul class="social-items">
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                        <h2>
+                                            We Are Monu<br>
+                                            Creative Agency
+                                        </h2>
+                                        <div class="slider-desc">
+                                            <p>We Create Awesome and Powerful Websites For Business!</p>
+                                        </div>
+                                        <div class="btn-area">
+                                            <a href="#" class="mono-btn d-inline-block">purchase now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Features  -->
+        <div class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="features-wrapper theme-bg">
+                            <div class="row g-0">
+                                <div class="col-xl-4 col-lg-4 col-md-4">
+                                    <div class="feature-item text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </div>
+                                        <div class="feature-heading">
+                                            <h3>Flexible Solutions</h3>
+                                        </div>
+                                        <div class="feature-desc">
+                                            <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum
+                                                dolor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4">
+                                    <div class="feature-item text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </div>
+                                        <div class="feature-heading">
+                                            <h3>Flexible Solutions</h3>
+                                        </div>
+                                        <div class="feature-desc">
+                                            <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum
+                                                dolor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-4">
+                                    <div class="feature-item text-center">
+                                        <div class="feature-icon">
+                                            <i class="fa-solid fa-pen-to-square"></i>
+                                        </div>
+                                        <div class="feature-heading">
+                                            <h3>Flexible Solutions</h3>
+                                        </div>
+                                        <div class="feature-desc">
+                                            <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum
+                                                dolor</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Features area -->
+            <div class="features-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="features-info">
+                                <div class="features-area-heading">
+                                    <h2>We are the leader in Wordpress Theme</h2>
+                                </div>
+                                <div class="features-area-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit,</p>
+                                </div>
+                                <div class="btn-area">
+                                    <a href="#" class="mono-btn d-inline-block">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="features-img-area">
+                                <img src="assets/img/aboutus.jpg" alt="fetures" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Us -->
+        <section class="contact" style="background: url('./assets/img/success.jpg');">
+            <div class="container container-fluid">
+                <div class="row">
+                    <div class="col-xl-12 text-center">
+                        <div class="contact-top">
+                            <h2>Are you ready to be success with us?</h2>
+                            <p>Tell us about your story and your project.</p>
+                        </div>
+                        <div class="contact-form">
+                            <form action="#">
+                                <div class="row g-2">
+                                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                        <input type="text" placeholder="your name">
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                        <input type="email" placeholder="email address">
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-sm-12">
+                                        <input type="number" placeholder="your phone">
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-sm-12 contact-btn ">
+                                        <button type="submit" class="mono-btn mono-btn-fill">Subscribe</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services -->
+        <div class="services-wrapper">
+            <div class="container-lg container-fluid">
+                <div class="row g-1">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+                        <div class="service-item text-center">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-pen-to-square"></i>
+                            </div>
+                            <div class="service-heading">
+                                <h3>web design</h3>
+                            </div>
+                            <div class="service-desc">
+                                <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum dolor</p>
+                            </div>
+                            <div>
+                                <a href="#" class="mono-btn d-inline-block">View service</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+                        <div class="service-item text-center">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-desktop"></i>
+                            </div>
+                            <div class="service-heading">
+                                <h3>web development</h3>
+                            </div>
+                            <div class="service-desc">
+                                <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum dolor</p>
+                            </div>
+                            <div>
+                                <a href="#" class="mono-btn d-inline-block">View service</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+                        <div class="service-item text-center">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-bullhorn"></i>
+                            </div>
+                            <div class="service-heading">
+                                <h3>digital marketting</h3>
+                            </div>
+                            <div class="service-desc">
+                                <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum dolor</p>
+                            </div>
+                            <div>
+                                <a href="#" class="mono-btn d-inline-block">View service</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-10 offset-sm-1 offset-md-0">
+                        <div class="service-item text-center">
+                            <div class="service-icon">
+                                <i class="fa-solid fa-headphones"></i>
+                            </div>
+                            <div class="service-heading">
+                                <h3>online consulting</h3>
+                            </div>
+                            <div class="service-desc">
+                                <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum dolor</p>
+                            </div>
+                            <div>
+                                <a href="#" class="mono-btn d-inline-block">View service</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- pricing table -->
+        <section class="pricing-table gray-bg">
+            <div class="container-lg container-fluid">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="section-top text-center">
+                            <h2>our pricing</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- pricing card -->
+                <div class="row text-center pt-table">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 offset-sm-2 offset-md-0 ">
+                        <div class="pt-item">
+                            <div class="pt-heading">
+                                <h3>Basic</h3>
+                            </div>
+                            <div class="pt-body">
+                                <h2>$100</h2>
+                                <ul class="pt-list">
+                                    <li>psd included</li>
+                                    <li>free installation</li>
+                                    <li>Free One Year Domain</li>
+                                    <li>Free Six Months Hosting</li>
+                                    <li>Full Support</li>
+                                </ul>
+                                <div>
+                                    <a href="#" class="mono-btn d-inline-block">purchase</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 offset-sm-2 offset-md-0 ">
+                        <div class="pt-item">
+                            <div class="pt-heading">
+                                <h3>advanced</h3>
+                            </div>
+                            <div class="pt-body">
+                                <h2>$300</h2>
+                                <ul class="pt-list">
+                                    <li>psd included</li>
+                                    <li>free installation</li>
+                                    <li>Free One Year Domain</li>
+                                    <li>Free Six Months Hosting</li>
+                                    <li>Full Support</li>
+                                </ul>
+                                <div>
+                                    <a href="#" class="mono-btn d-inline-block">purchase</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8 offset-sm-2 offset-md-0">
+                        <div class="pt-item">
+                            <div class="pt-heading">
+                                <h3>pro</h3>
+                            </div>
+                            <div class="pt-body">
+                                <h2>$500</h2>
+                                <ul class="pt-list">
+                                    <li>psd included</li>
+                                    <li>free installation</li>
+                                    <li>Free One Year Domain</li>
+                                    <li>Free Six Months Hosting</li>
+                                    <li>Full Support</li>
+                                </ul>
+                                <div>
+                                    <a href="#" class="mono-btn d-inline-block">purchase</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- counter -->
+        <div class="counter-wrapper theme-bg text-center">
+            <div class="container-lg container-fluid">
+                <div class="row g-1">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-item">
+                            <div class="icon">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div class="count">
+                                <h1 class="counter" data-target="35000">0</h1>
+                            </div>
+                            <div class="counter-text">
+                                <p>happy customers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-item">
+                            <div class="icon">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div class="count">
+                                <h1 class="counter" data-target="350">0</h1>
+                            </div>
+                            <div class="counter-text">
+                                <p>Runnig Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-item">
+                            <div class="icon">
+                                <i class="fa-solid fa-mug-hot"></i>
+                            </div>
+                            <div class="count">
+                                <h1 class="counter" data-target="3250">0</h1>
+                            </div>
+                            <div class="counter-text">
+                                <p>coffee cups</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter-item">
+                            <div class="icon">
+                                <i class="fa-solid fa-list-check"></i>
+                            </div>
+                            <div class="count">
+                                <h1 class="counter" data-target="250">0</h1>
+                            </div>
+                            <div class="counter-text">
+                                <p>complete projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team Member -->
+        <div class="team">
+            <div class="team-container">
+                <div class="row g-0">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="team-item">
+                            <img src="assets/img/team1.jpg" alt="team" class="img-fluid">
+                            <div class="team-item-wrap">
+                                <div class="team-item-content">
+                                    <h4>John Doe</h4>
+                                    <span>Creative builder</span>
+                                    <ul class="d-flex">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="team-item">
+                            <img src="assets/img/team3.jpg" alt="team" class="img-fluid">
+                            <div class="team-item-wrap">
+                                <div class="team-item-content">
+                                    <h4>Selena Gomez</h4>
+                                    <span>Creative builder</span>
+                                    <ul class="d-flex">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="team-item">
+                            <img src="assets/img/team2.jpg" alt="team" class="img-fluid">
+                            <div class="team-item-wrap">
+                                <div class="team-item-content">
+                                    <h4>Alex</h4>
+                                    <span>Creative builder</span>
+                                    <ul class="d-flex">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <div class="team-item">
+                            <img src="assets/img/team4.jpg" alt="team" class="img-fluid">
+                            <div class="team-item-wrap">
+                                <div class="team-item-content">
+                                    <h4>Alex</h4>
+                                    <span>Creative builder</span>
+                                    <ul class="d-flex">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog & News -->
+        <div class="container-lg container-fluid blog-area">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section-top text-center">
+                        <h2>blog & news</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- blog area -->
+            <div class="blog-wrapper">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-8 offset-md-2 col-sm-8 offset-sm-2 offset-lg-0">
+                        <div class="blog-item">
+                            <div class="blog-header">
+                                <img src="assets/img/blog1.jpg" alt="blog" class="img-fluid">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-title">
+                                    <h2>How to Improve Your Sales Volume</h2>
+                                </div>
+                                <div class="blog-date">
+                                    <span>07 may</span>
+                                </div>
+                                <div class="blog-excerpt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod teminc
+                                        ididunt ut labore
+                                        et dolore.Lorem ipsum
+                                        dolor sit amet.</p>
+                                </div>
+                                <div >
+                                    <a href="#" class="mono-btn d-inline-block">continue reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-8 offset-md-2 col-sm-8 offset-sm-2 offset-lg-0">
+                        <div class="blog-item">
+                            <div class="blog-header">
+                                <img src="assets/img/blog2.jpg" alt="blog" class="img-fluid">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-title">
+                                    <h2>How to Improve Your Sales Volume</h2>
+                                </div>
+                                <div class="blog-date">
+                                    <span>07 may</span>
+                                </div>
+                                <div class="blog-excerpt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod teminc
+                                        ididunt ut labore
+                                        et dolore.Lorem ipsum
+                                        dolor sit amet.</p>
+                                </div>
+                                <div>
+                                    <a href="#" class="mono-btn d-inline-block">continue reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-8 offset-md-2 col-sm-8 offset-sm-2 offset-lg-0">
+                        <div class="blog-item">
+                            <div class="blog-header">
+                                <img src="assets/img/blog3.jpg" alt="blog" class="img-fluid">
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-title">
+                                    <h2>How to Improve Your Sales Volume</h2>
+                                </div>
+                                <div class="blog-date">
+                                    <span>07 may</span>
+                                </div>
+                                <div class="blog-excerpt">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod teminc
+                                        ididunt ut labore
+                                        et dolore.Lorem ipsum
+                                        dolor sit amet.</p>
+                                </div>
+                                <div>
+                                    <a href="#" class="mono-btn d-inline-block">continue reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonials -->
+        <div class="testimonial-wrapper" style="background: url('./assets/img/testimonial.jpg');">
+            <div class="container">
+                <div class="testimonial-content-box">
+                    <div class="testimonials">
+                        <div class="testimonail-item">
+                            <div class="meta-info">
+                                <h2>Theresa Rodgers</h2>
+                                <span>Developer</span>
+                            </div>
+                            <div class="testimonial-desc">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="testimonail-item">
+                            <div class="meta-info">
+                                <h2>Theresa Rodgers</h2>
+                                <span>Developer</span>
+                            </div>
+                            <div class="testimonial-desc">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                        <div class="testimonail-item">
+                            <div class="meta-info">
+                                <h2>Theresa Rodgers</h2>
+                                <span>Developer</span>
+                            </div>
+                            <div class="testimonial-desc">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-nav-controls">
+                        <button></button>
+                        <button></button>
+                        <button></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- branding area -->
+        <div class="logo-clouds">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="logo-slider">
+                            <ul class="d-flex justify-content-between">
+                                <li><a href="#"><img src="assets/img/logo2.png" alt="logo"></a></li>
+                                <li><a href="#"><img src="assets/img/logo4.png" alt="logo"></a></li>
+                                <li><a href="#"><img src="assets/img/logo2.png" alt="logo"></a></li>
+                                <li><a href="#"><img src="assets/img/logo4.png" alt="logo"></a></li>
+                                <li><a href="#"><img src="assets/img/logo2.png" alt="logo"></a></li>
+                                <li><a href="#"><img src="assets/img/logo2.png" alt="logo"></a></li>
+                                <li><a href="#"><img src="assets/img/logo2.png" alt="logo"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+<footer class="black-bg">
+    <div class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer-heading">
+                        <h2>contact us</h2>
+                    </div>
+                    <div class="text-widget">
+                        <ul>
+                            <li>1 (800) 686-6688</li>
+                            <li>info.muglidesign@gmail.com</li>
+                            <li>40 Baria Sreet 133/2</li>
+                            <li>NewYork City, US</li>
+                        </ul>
+                            <ul class="social-items">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            </ul>
+                  
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer-heading">
+                        <h2>useful links</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <nav class="footer-nav">
+                                <ul>
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <nav class="footer-nav">
+                                <ul>
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Support</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="footer-heading">
+                        <h2>blog & news</h2>
+                    </div>
+                    <div class="recent-post-widgets">
+                        <div class="recent-post-item d-flex align-items-center">
+                            <div class="img-area">
+                                <img src="assets/img/footer-blog.png" alt="">
+                            </div>
+                            <div class="post-content">
+                                <h5>How to Improve Your Sales
+                                Volume</h5>
+                                <span>24th aug 2021</span>
+                            </div>
+                        </div>
+                        <div class="recent-post-item d-flex align-items-center">
+                            <div class="img-area">
+                                <img src="assets/img/footerblog-2.png" alt="">
+                            </div>
+                            <div class="post-content">
+                                <h5>How to Improve Your Sales
+                                Volume</h5>
+                                <span>24th aug 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="line"></div>
+    </div>
+    <div class="container footer-bottom">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <p>Copyright &copy;2018 Mugli. All Rights Reserved</p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <ul class="d-flex align-items-center justify-content-end">
+                    <li><a href="#">Privecy Policy</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">support</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Script -->
+
+    <script src="assets/vendor/tinyslider/tinyslider.js"></script>
+    <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
